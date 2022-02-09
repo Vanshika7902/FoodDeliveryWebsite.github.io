@@ -88,7 +88,7 @@
 #home::before
 {
     content: "";
-    background: url('images/food1.jpg') no-repeat center center/cover;
+    background: url('img/food1.jpg') no-repeat center center/cover;
    position: absolute;
    top: 0px;
     left: 0px;
@@ -146,7 +146,7 @@
 
 #client-section::before{
     content: "";
-    background: url('images/Restaurant.jpg') no-repeat center center/cover;
+    background: url('img/Restaurant.jpg') no-repeat center center/cover;
     position: absolute;
     /* top: 1300px;
      left: 0px; */
@@ -176,7 +176,7 @@
 }
 #contact::before{
     content: "";
-    background: url('images/contact\ us.jpg') no-repeat center center/cover;
+    background: url('img/contact\ us.jpg') no-repeat center center/cover;
     position: absolute;
     height: 100%;
     width: 100%;
