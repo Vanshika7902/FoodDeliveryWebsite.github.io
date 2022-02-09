@@ -1,0 +1,214 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+}
+
+#navbar{
+
+    display: flex;
+     align-items: center; 
+     position: relative;
+     top: 0px;
+    
+
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(3, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    
+}
+
+#logo{
+    margin:13px 15px;
+}
+#logo img{
+    
+    height:80px;
+    margin:13px 15px;
+    
+}
+#navbar ul{
+    display: flex;
+    
+} 
+
+  #navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+
+   
+} 
+
+#navbar ul li a{
+
+    color: blanchedalmond;
+    display: block;
+    padding: 13px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color:black;
+    background: white;
+}
+
+#home
+{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+#home h1{
+    color: rgb(94, 9, 9);
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+} 
+
+#home p{
+    color: rgb(20, 2, 2);
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Baloo 2', cursive;
+} 
+
+#home::before
+{
+    content: "";
+    background: url('images/food1.jpg') no-repeat center center/cover;
+   position: absolute;
+   top: 0px;
+    left: 0px;
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.btn
+{
+    padding: 6px 20px;
+    border:2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px 17px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+}
+
+#services{
+    display: flex;
+    margin: 34px;
+}
+
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin:3px 6px;
+    border-radius: 23px;
+    background-color: #f2f2f2;
+
+}
+
+#services .box img{
+    height:200px;
+    display: block;
+    margin:auto;
+}
+
+/* client-section */
+
+
+#client-section{
+    height: 450px;
+}
+
+#client-section::before{
+    content: "";
+    background: url('images/Restaurant.jpg') no-repeat center center/cover;
+    position: absolute;
+    /* top: 1300px;
+     left: 0px; */
+    height: 60%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients .client-items{
+    padding:34px;
+    margin: 3px 6px;
+}
+
+#clients .client-items img{
+    height:250px;
+}
+
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    background: url('images/contact\ us.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box textarea,#contact-box input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width:40%;
+}
+
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px 489px;
+}
