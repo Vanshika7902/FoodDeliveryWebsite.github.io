@@ -7,11 +7,10 @@
 #navbar{
 
     display: flex;
-     align-items: center; 
-     position: relative;
-     top: 0px;
-    
-
+    align-items: center; 
+    position: relative;
+    top: 0px;
+    position: sticky;
 }
 
 #navbar::before{
@@ -20,10 +19,10 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 100%;
+    height: 80%;
     width: 100%;
     z-index: -1;
-    opacity: 0.4;
+    opacity: 0.7;
     
 }
 
@@ -38,27 +37,27 @@
 }
 #navbar ul{
     display: flex;
-    
+    position: absolute;
+    right: 23px;
 } 
 
   #navbar ul li{
     list-style: none;
     font-size: 1.3rem;
-
-   
 } 
 
 #navbar ul li a{
 
     color: blanchedalmond;
     display: block;
-    padding: 13px 15px;
+    padding: 13px 21px;
     border-radius: 15px;
     text-decoration: none;
 }
 
 #navbar ul li a:hover{
     color:black;
+    font-weight: bold;
     background: white;
 }
 
@@ -92,7 +91,7 @@
    position: absolute;
    top: 0px;
     left: 0px;
-    height: 90%;
+    height: 80%;
     width: 100%;
     z-index: -1;
     opacity: 0.5;
@@ -110,6 +109,11 @@
     cursor: pointer;
 }
 
+.btn:hover{
+    background-color: black;
+    font-weight: bold;
+}
+
 .h-primary{
     font-size: 3.8rem;
     padding: 12px;
@@ -119,6 +123,7 @@
 
 #services{
     display: flex;
+    justify-content: center;
     margin: 34px;
 }
 
@@ -137,6 +142,18 @@
     margin:auto;
 }
 
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cntn_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 /* client-section */
 
 
@@ -150,10 +167,10 @@
     position: absolute;
     /* top: 1300px;
      left: 0px; */
-    height: 60%;
+    height: 55%;
     width: 100%;
     z-index: -1;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 #clients{
@@ -181,7 +198,7 @@
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 #contact-box{
@@ -211,4 +228,9 @@ footer{
     background-color: black;
     color: white;
     padding: 10px 489px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
 }
